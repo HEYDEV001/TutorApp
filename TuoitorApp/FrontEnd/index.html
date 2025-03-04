@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TutorMatch - Find Your Perfect Tutor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="https://i.ibb.co/Qp1Gw1L/tutor-match-logo.png" alt="TutorMatch Logo">
+      <h1>TutorMatch</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button class="btn btn-secondary" id="loginBtn">Sign In</button>
+        <button class="btn btn-primary" id="signupBtn">Sign Up</button>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Find Your Perfect Tutor</h1>
+      <p>Connect with qualified tutors for personalized learning experiences. Book sessions, track progress, and achieve your academic goals.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary btn-lg">Find a Tutor</button>
+        <button class="btn btn-outline btn-lg">Become a Tutor</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <h3>5,000+</h3>
+          <p>Qualified Tutors</p>
+        </div>
+        <div class="stat">
+          <h3>20,000+</h3>
+          <p>Happy Students</p>
+        </div>
+        <div class="stat">
+          <h3>50+</h3>
+          <p>Subjects</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://i.ibb.co/Jt8JKTW/hero-image.jpg" alt="Student learning with tutor">
+    </div>
+  </div>
+</section>
+
+<!-- Search Section -->
+<section class="search-section">
+  <div class="container">
+    <div class="search-container">
+      <h2>Find the Right Tutor for You</h2>
+      <div class="search-box">
+        <div class="search-input">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search by subject, location, or tutor name">
+        </div>
+        <div class="search-filters">
+          <select>
+            <option value="">All Subjects</option>
+            <option value="math">Mathematics</option>
+            <option value="science">Science</option>
+            <option value="english">English</option>
+            <option value="history">History</option>
+            <option value="programming">Programming</option>
+          </select>
+          <select>
+            <option value="">All Locations</option>
+            <option value="online">Online</option>
+            <option value="in-person">In-Person</option>
+          </select>
+          <select>
+            <option value="">Any Rating</option>
+            <option value="4">4+ Stars</option>
+            <option value="3">3+ Stars</option>
+          </select>
+        </div>
+        <button class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+  <div class="container">
+    <div class="section-header">
+      <h2>Why Choose TutorMatch?</h2>
+      <p>Our platform offers everything you need to succeed in your learning journey</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-user-graduate"></i>
+        </div>
+        <h3>Tutor Profiles</h3>
+        <p>Browse detailed tutor profiles with qualifications, experience, and student reviews.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>Advanced Search</h3>
+        <p>Find tutors based on subject, location, rating, and availability.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-calendar-check"></i>
+        </div>
+        <h3>Online Booking</h3>
+        <p>Book sessions with your preferred tutors with our easy-to-use booking system.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <h3>Ratings & Reviews</h3>
+        <p>Read and leave reviews to help others find the best tutors.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <h3>Class Scheduling</h3>
+        <p>Flexible scheduling options to fit your learning needs and availability.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Progress Reports</h3>
+        <p>Track your learning progress with detailed reports from your tutors.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-laptop-house"></i>
+        </div>
+        <h3>Online & Offline</h3>
+        <p>Choose between online sessions or in-person tutoring based on your preference.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-clipboard-check"></i>
+        </div>
+        <h3>Free Trial</h3>
+        <p>Try our platform with a 3-day free trial to experience the benefits.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How It Works -->
+<section class="how-it-works">
+  <div class="container">
+    <div class="section-header">
+      <h2>How TutorMatch Works</h2>
+      <p>Finding the perfect tutor is easy with our simple process</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>Search</h3>
+        <p>Browse tutors based on subject, location, and ratings</p>
+      </div>
+      <div class="step-connector"></div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-icon">
+          <i class="fas fa-comments"></i>
+        </div>
+        <h3>Connect</h3>
+        <p>Message tutors to discuss your learning needs</p>
+      </div>
+      <div class="step-connector"></div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-icon">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+        <h3>Book</h3>
+        <p>Schedule sessions at times that work for you</p>
+      </div>
+      <div class="step-connector"></div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-icon">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <h3>Learn</h3>
+        <p>Enjoy personalized learning and track your progress</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Tutors -->
+<section class="featured-tutors">
+  <div class="container">
+    <div class="section-header">
+      <h2>Meet Our Top Tutors</h2>
+      <p>Learn from the best in their fields</p>
+    </div>
+    <div class="tutors-slider">
+      <div class="tutor-card">
+        <div class="tutor-image">
+          <img src="https://i.ibb.co/Lk3nSrm/tutor1.jpg" alt="Dr. Sarah Williams">
+        </div>
+        <div class="tutor-info">
+          <h3>Dr. Sarah Williams</h3>
+          <p class="tutor-subject">Mathematics</p>
+          <div class="tutor-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>5.0 (124 reviews)</span>
+          </div>
+          <p class="tutor-bio">PhD in Mathematics with 10+ years of teaching experience. Specializes in calculus and algebra.</p>
+          <button class="btn btn-primary btn-sm">View Profile</button>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-image">
+          <img src="https://i.ibb.co/YPXktqs/tutor2.jpg" alt="Prof. Michael Chen">
+        </div>
+        <div class="tutor-info">
+          <h3>Prof. Michael Chen</h3>
+          <p class="tutor-subject">Physics</p>
+          <div class="tutor-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>4.8 (98 reviews)</span>
+          </div>
+          <p class="tutor-bio">Professor of Physics with expertise in mechanics and quantum physics. Makes complex concepts simple.</p>
+          <button class="btn btn-primary btn-sm">View Profile</button>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-image">
+          <img src="https://i.ibb.co/Jj8vNbD/tutor3.jpg" alt="Emma Rodriguez">
+        </div>
+        <div class="tutor-info">
+          <h3>Emma Rodriguez</h3>
+          <p class="tutor-subject">English Literature</p>
+          <div class="tutor-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>4.7 (87 reviews)</span>
+          </div>
+          <p class="tutor-bio">Published author and English teacher with a passion for literature and creative writing.</p>
+          <button class="btn btn-primary btn-sm">View Profile</button>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>About TutorMatch</h2>
+        <p>TutorMatch was founded with a simple mission: to make quality education accessible to everyone. We believe that personalized learning is the key to academic success.</p>
+        <p>Our platform connects students with qualified tutors across a wide range of subjects, allowing for customized learning experiences that cater to individual needs and learning styles.</p>
+        <p>Whether you're struggling with a specific subject, preparing for an exam, or looking to advance your skills, TutorMatch has the right tutor for you.</p>
+        <div class="about-stats">
+          <div class="about-stat">
+            <h3>5+</h3>
+            <p>Years of Experience</p>
+          </div>
+          <div class="about-stat">
+            <h3>50+</h3>
+            <p>Subjects Covered</p>
+          </div>
+          <div class="about-stat">
+            <h3>100%</h3>
+            <p>Satisfaction Guarantee</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="https://i.ibb.co/Jj1Bv8S/about-image.jpg" alt="Students learning together">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Our Users Say</h2>
+      <p>Hear from students and tutors who have used our platform</p>
+    </div>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"TutorMatch helped me find the perfect math tutor for my daughter. Her grades improved significantly after just a few sessions!"</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="https://i.ibb.co/VVLGkVB/testimonial1.jpg" alt="Jane Smith">
+          <div>
+            <h4>Jane Smith</h4>
+            <p>Parent</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"As a tutor, TutorMatch has allowed me to connect with students who truly benefit from my teaching style. The platform is easy to use and very professional."</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="https://i.ibb.co/Lk3nSrm/tutor1.jpg" alt="Dr. Sarah Williams">
+          <div>
+            <h4>Dr. Sarah Williams</h4>
+            <p>Mathematics Tutor</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"I was struggling with physics until I found my tutor through TutorMatch. The booking system is so convenient, and the progress reports help me stay on track."</p>
+        </div>
+        <div class="testimonial-author">
+          <img src="https://i.ibb.co/Jj1Bv8S/testimonial3.jpg" alt="Alex Johnson">
+          <div>
+            <h4>Alex Johnson</h4>
+            <p>Student</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Start Your Learning Journey?</h2>
+      <p>Join thousands of students who have found their perfect tutors on TutorMatch.</p>
+      <button class="btn btn-light btn-lg" id="ctaSignupBtn">Sign Up Now</button>
+      <p class="cta-small">Try it free for 3 days. No credit card required.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="https://i.ibb.co/Qp1Gw1L/tutor-match-logo.png" alt="TutorMatch Logo">
+        <h2>TutorMatch</h2>
+        <p>Find your perfect tutor and achieve your academic goals.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-links-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-column">
+          <h3>For Students</h3>
+          <ul>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Find a Tutor</a></li>
+            <li><a href="#">Student Resources</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Student Success Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-column">
+          <h3>For Tutors</h3>
+          <ul>
+            <li><a href="#">Become a Tutor</a></li>
+            <li><a href="#">Tutor Resources</a></li>
+            <li><a href="#">Tutor FAQs</a></li>
+            <li><a href="#">Tutor Success Stories</a></li>
+            <li><a href="#">Tutor Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-column">
+          <h3>Contact Us</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</li>
+            <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+            <li><i class="fas fa-envelope"></i> info@tutormatch.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 TutorMatch. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Login Modal -->
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>Sign In</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="loginEmail">Email</label>
+        <input type="email" id="loginEmail" required>
+      </div>
+      <div class="form-group">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" required>
+      </div>
+      <div class="form-group form-checkbox">
+        <input type="checkbox" id="rememberMe">
+        <label for="rememberMe">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+    </form>
+    <div class="modal-footer">
+      <p>Don't have an account? <a href="#" id="switchToSignup">Sign Up</a></p>
+      <p><a href="#">Forgot password?</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- Signup Modal -->
+<div class="modal" id="signupModal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h2>Create an Account</h2>
+    <div class="user-type-selector">
+      <button class="user-type active" data-type="student">I'm a Student</button>
+      <button class="user-type" data-type="tutor">I'm a Tutor</button>
+    </div>
+    <form id="signupForm">
+      <div class="form-group">
+        <label for="signupName">Full Name</label>
+        <input type="text" id="signupName" required>
+      </div>
+      <div class="form-group">
+        <label for="signupEmail">Email</label>
+        <input type="email" id="signupEmail" required>
+      </div>
+      <div class="form-group">
+        <label for="signupPassword">Password</label>
+        <input type="password" id="signupPassword" required>
+      </div>
+      <div class="form-group">
+        <label for="signupConfirmPassword">Confirm Password</label>
+        <input type="password" id="signupConfirmPassword" required>
+      </div>
+      <div class="form-group form-checkbox">
+        <input type="checkbox" id="termsAgree" required>
+        <label for="termsAgree">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+    </form>
+    <div class="modal-footer">
+      <p>Already have an account? <a href="#" id="switchToLogin">Sign In</a></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>**
